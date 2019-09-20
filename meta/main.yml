@@ -4,7 +4,7 @@ galaxy_info:
   description: A basic role to simplify setting up workstations.
   company: Bedlam Hotel
 
-  license: GPLv2
+  license: GPLv3
 
   min_ansible_version: 2.5
 
@@ -22,3 +22,4 @@ dependencies:
   - role: ctorgalson.dotfiles
   - role: ctorgalson.files
   - role: ctorgalson.nvm
+
