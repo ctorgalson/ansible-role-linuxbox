@@ -17,8 +17,37 @@ galaxy_info:
 
 dependencies:
   - role: ctorgalson.ssh_keys
+    tags:
+      - config
+      - keys
   - role: anxs.hostname
+    tags:
+      - config
+      - system
   - role: weareinteractive.apt
+    tags:
+      - apt
+      - packages
+  - role: geerlingguy.pip
+    tags:
+      - pip
+      - python
+      - packages
   - role: ctorgalson.dotfiles
+    tags:
+      - config
+      - dotfiles
   - role: ctorgalson.files
+    tags:
+      - files
   - role: ctorgalson.nvm
+    tags:
+      - packages
+  - role: ctorgalson.janus
+    tags:
+      - cli
+      - vim
+  - role: ctorgalson.releases
+    tags:
+      - releases
+      - packages
