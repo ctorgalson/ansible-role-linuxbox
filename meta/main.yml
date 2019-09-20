@@ -18,8 +18,7 @@ galaxy_info:
 dependencies:
   - role: ctorgalson.ssh_keys
   - role: anxs.hostname
-  - role: weareinteractive.apt
-  - role: ctorgalson.dotfiles
-  - role: ctorgalson.files
-  - role: ctorgalson.nvm
-
+# - role: weareinteractive.apt
+# - role: ctorgalson.dotfiles
+# - role: ctorgalson.files
+# - role: ctorgalson.nvm
