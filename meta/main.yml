@@ -21,4 +21,4 @@ dependencies:
   - role: weareinteractive.apt
   - role: ctorgalson.dotfiles
   - role: ctorgalson.files
-# - role: ctorgalson.nvm
+  - role: ctorgalson.nvm
