@@ -43,7 +43,7 @@ dependencies:
   - role: ctorgalson.nvm
     tags:
       - packages
-  - role: ctorgalson.janus
+  - role: ctorgalson.vim
     tags:
       - cli
       - vim
