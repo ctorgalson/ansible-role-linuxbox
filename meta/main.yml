@@ -28,11 +28,15 @@ dependencies:
     tags:
       - apt
       - packages
+  - role: geerlingguy.composer
+    tags:
+      - packages
+      - php
   - role: geerlingguy.pip
     tags:
+      - packages
       - pip
       - python
-      - packages
   - role: ctorgalson.dotfiles
     tags:
       - config
@@ -49,5 +53,5 @@ dependencies:
       - vim
   - role: ctorgalson.releases
     tags:
-      - releases
       - packages
+      - releases
