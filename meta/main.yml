@@ -24,7 +24,7 @@ dependencies:
     tags:
       - config
       - system
-  - role: weareinteractive.apt
+  - role: ctorgalson.apt
     tags:
       - apt
       - packages
